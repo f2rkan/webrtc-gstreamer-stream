@@ -54,7 +54,6 @@ To set up coTURN, Prometheus, and Grafana, the following Docker commands are uti
 
    ```bash
    docker run -d -p 3000:3000 --name=grafana grafana/grafana-oss
-   docker start grafana
    ```
 
 ### Prometheus Configuration
